@@ -1,44 +1,44 @@
-May 03, 2017 7:24:48 PM org.openqa.grid.selenium.GridLauncher main
+May 03, 2017 7:30:09 PM org.openqa.grid.selenium.GridLauncher main
 INFO: Launching a standalone server
-19:24:49.041 INFO - Java: Oracle Corporation 25.131-b11
-19:24:49.041 INFO - OS: Mac OS X 10.11.6 x86_64
-19:24:49.047 INFO - v2.40.0, with Core v2.40.0. Built from revision fbe29a9
-19:24:49.110 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match with current platform: MAC
-19:24:49.133 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-19:24:49.134 INFO - Version Jetty/5.1.x
-19:24:49.135 INFO - Started HttpContext[/selenium-server,/selenium-server]
-19:24:49.153 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@546a03af
-19:24:49.153 INFO - Started HttpContext[/wd,/wd]
-19:24:49.153 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
-19:24:49.154 INFO - Started HttpContext[/,/]
-19:24:49.157 INFO - Started SocketListener on 0.0.0.0:4444
-19:24:49.157 INFO - Started org.openqa.jetty.jetty.Server@4edde6e5
-19:24:49.357 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Demo, browserName=chrome, javascriptEnabled=true, platform=ANY}]] at URL: /session)
-19:24:49.363 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Demo, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b) on port 24645
+19:30:09.675 INFO - Java: Oracle Corporation 25.131-b11
+19:30:09.676 INFO - OS: Mac OS X 10.11.6 x86_64
+19:30:09.682 INFO - v2.40.0, with Core v2.40.0. Built from revision fbe29a9
+19:30:09.745 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match with current platform: MAC
+19:30:09.769 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+19:30:09.770 INFO - Version Jetty/5.1.x
+19:30:09.771 INFO - Started HttpContext[/selenium-server,/selenium-server]
+19:30:09.789 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@546a03af
+19:30:09.789 INFO - Started HttpContext[/wd,/wd]
+19:30:09.789 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+19:30:09.790 INFO - Started HttpContext[/,/]
+19:30:09.793 INFO - Started SocketListener on 0.0.0.0:4444
+19:30:09.793 INFO - Started org.openqa.jetty.jetty.Server@4edde6e5
+19:30:09.991 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Demo, browserName=chrome, javascriptEnabled=true, platform=ANY}]] at URL: /session)
+19:30:09.997 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Demo, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b) on port 9414
 Only local connections are allowed.
-19:24:50.857 INFO - Done: /session
-19:24:50.874 INFO - Executing: [get: http://bing.com] at URL: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/url)
-19:24:52.829 INFO - Done: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/url
-19:24:52.834 INFO - Executing: [maximise window] at URL: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/window/current/maximize)
-19:24:53.158 INFO - Done: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/window/current/maximize
-19:24:53.163 INFO - Executing: [find elements: By.selector: body] at URL: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/elements)
-19:24:53.196 INFO - Done: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/elements
-19:24:53.203 INFO - Executing: [find elements: By.selector: #sb_form_q] at URL: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/elements)
-19:24:53.225 INFO - Done: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/elements
-19:24:53.228 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (8fc94ce07a491ff80148a5263c5031b7)] -> css selector: #sb_form_q]] at URL: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/element/1/displayed)
-19:24:53.247 INFO - Done: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/element/1/displayed
-19:24:55.256 INFO - Executing: [find element: By.selector: #sb_form_q] at URL: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/element)
-19:24:55.765 INFO - Done: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/element
-19:24:55.772 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (8fc94ce07a491ff80148a5263c5031b7)] -> css selector: #sb_form_q], [w, h, a, t,  , i, s,  , j, a, v, a, s, c, r, i, p, t]] at URL: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/element/1/value)
-19:24:55.870 INFO - Done: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/element/1/value
-19:24:55.873 INFO - Executing: [find element: By.selector: #sb_form_go] at URL: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/element)
-19:24:55.893 INFO - Done: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/element
-19:24:55.896 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (8fc94ce07a491ff80148a5263c5031b7)] -> css selector: #sb_form_go]] at URL: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/element/2/click)
-19:24:57.452 INFO - Done: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/element/2/click
-19:24:59.458 INFO - Executing: [find elements: By.selector: body] at URL: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/elements)
-19:24:59.469 INFO - Done: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/elements
-19:24:59.473 INFO - Executing: [take screenshot] at URL: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/screenshot)
-19:24:59.939 INFO - Done: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a/screenshot
-19:25:00.072 INFO - Executing: [delete session: 88c46760-f978-4ae3-bb81-fc45ca2d333a] at URL: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a)
-19:25:00.637 INFO - Done: /session/88c46760-f978-4ae3-bb81-fc45ca2d333a
+19:30:11.488 INFO - Done: /session
+19:30:11.503 INFO - Executing: [get: http://bing.com] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/url)
+19:30:16.831 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/url
+19:30:16.837 INFO - Executing: [maximise window] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/window/current/maximize)
+19:30:17.179 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/window/current/maximize
+19:30:17.184 INFO - Executing: [find elements: By.selector: body] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/elements)
+19:30:17.217 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/elements
+19:30:17.223 INFO - Executing: [find elements: By.selector: #sb_form_q] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/elements)
+19:30:17.245 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/elements
+19:30:17.249 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (5cf46f05a017dd87f9c37bf79333e4ac)] -> css selector: #sb_form_q]] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/element/1/displayed)
+19:30:17.268 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/element/1/displayed
+19:30:19.277 INFO - Executing: [find element: By.selector: #sb_form_q] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/element)
+19:30:19.298 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/element
+19:30:19.304 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (5cf46f05a017dd87f9c37bf79333e4ac)] -> css selector: #sb_form_q], [w, h, a, t,  , i, s,  , j, a, v, a, s, c, r, i, p, t]] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/element/1/value)
+19:30:19.415 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/element/1/value
+19:30:19.419 INFO - Executing: [find element: By.selector: #sb_form_go] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/element)
+19:30:19.443 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/element
+19:30:19.447 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (5cf46f05a017dd87f9c37bf79333e4ac)] -> css selector: #sb_form_go]] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/element/2/click)
+19:30:20.064 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/element/2/click
+19:30:22.070 INFO - Executing: [find elements: By.selector: body] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/elements)
+19:30:22.081 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/elements
+19:30:22.085 INFO - Executing: [take screenshot] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/screenshot)
+19:30:22.547 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/screenshot
+19:30:22.669 INFO - Executing: [delete session: fccf182d-940a-422c-9709-d71102baf28e] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e)
+19:30:23.230 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e
