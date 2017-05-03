@@ -3,7 +3,7 @@ module.exports = {
     // 定义 Bing 页面中的节点.
     const searchInput = '#sb_form_q'
     const searchBtn = '#sb_form_go'
-    const question = 'what is microsoft'
+    const question = 'what is javascript'
 
     // 启动浏览器并打开 bing.com.
     client.url('http://bing.com').maximizeWindow()
