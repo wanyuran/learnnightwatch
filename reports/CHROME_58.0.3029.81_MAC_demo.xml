@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="demo"
+    errors="0" failures="1" hostname="" id="" package="demo" skipped="0"
+    tests="1" time="7.261" timestamp="Fri, 28 Apr 2017 10:11:56 GMT">
+  
+    <testcase name="Find the answer." classname="demo" time="7.261" assertions="2">
+
+      <failure message="Expected element &lt;#sb_form_q&gt; to be visible - element was not found">    at Object.Find the answer. (/Users/wyr/learn/learn_nightwatch/tests/demo.js:13:19)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
