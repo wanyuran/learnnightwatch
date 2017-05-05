@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="practice.loginWFData"
+    errors="1" failures="0" hostname="" id="" package="practice" skipped="0"
+    tests="1" time="0.006000" timestamp="Fri, 05 May 2017 08:05:46 GMT">
+  
+    <testcase name="login WanFang Data" classname="practice.loginWFData" time="0.006000" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Practice / Login WFData / login WanFang Data]:
+
+  TypeError: Cannot read property '0' of undefined
+    at Object.login WanFang Data (/Users/wyr/learn/learn_nightwatch/tests/practice/loginWFData.js:17:32)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

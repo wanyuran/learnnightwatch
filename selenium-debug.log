@@ -1,44 +1,174 @@
-May 03, 2017 7:30:09 PM org.openqa.grid.selenium.GridLauncher main
+May 05, 2017 5:11:18 PM org.openqa.grid.selenium.GridLauncher main
 INFO: Launching a standalone server
-19:30:09.675 INFO - Java: Oracle Corporation 25.131-b11
-19:30:09.676 INFO - OS: Mac OS X 10.11.6 x86_64
-19:30:09.682 INFO - v2.40.0, with Core v2.40.0. Built from revision fbe29a9
-19:30:09.745 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match with current platform: MAC
-19:30:09.769 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-19:30:09.770 INFO - Version Jetty/5.1.x
-19:30:09.771 INFO - Started HttpContext[/selenium-server,/selenium-server]
-19:30:09.789 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@546a03af
-19:30:09.789 INFO - Started HttpContext[/wd,/wd]
-19:30:09.789 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
-19:30:09.790 INFO - Started HttpContext[/,/]
-19:30:09.793 INFO - Started SocketListener on 0.0.0.0:4444
-19:30:09.793 INFO - Started org.openqa.jetty.jetty.Server@4edde6e5
-19:30:09.991 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Demo, browserName=chrome, javascriptEnabled=true, platform=ANY}]] at URL: /session)
-19:30:09.997 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Demo, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b) on port 9414
+17:11:18.669 INFO - Java: Oracle Corporation 25.131-b11
+17:11:18.670 INFO - OS: Mac OS X 10.11.6 x86_64
+17:11:18.676 INFO - v2.40.0, with Core v2.40.0. Built from revision fbe29a9
+17:11:18.740 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match with current platform: MAC
+17:11:18.763 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:11:18.763 INFO - Version Jetty/5.1.x
+17:11:18.765 INFO - Started HttpContext[/selenium-server,/selenium-server]
+17:11:18.787 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@546a03af
+17:11:18.787 INFO - Started HttpContext[/wd,/wd]
+17:11:18.787 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+17:11:18.787 INFO - Started HttpContext[/,/]
+17:11:18.791 INFO - Started SocketListener on 0.0.0.0:4444
+17:11:18.791 INFO - Started org.openqa.jetty.jetty.Server@4edde6e5
+17:11:19.005 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Practice / Baidunightwatch, browserName=chrome, javascriptEnabled=true, platform=ANY}]] at URL: /session)
+17:11:19.012 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Practice / Baidunightwatch, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b) on port 15955
 Only local connections are allowed.
-19:30:11.488 INFO - Done: /session
-19:30:11.503 INFO - Executing: [get: http://bing.com] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/url)
-19:30:16.831 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/url
-19:30:16.837 INFO - Executing: [maximise window] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/window/current/maximize)
-19:30:17.179 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/window/current/maximize
-19:30:17.184 INFO - Executing: [find elements: By.selector: body] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/elements)
-19:30:17.217 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/elements
-19:30:17.223 INFO - Executing: [find elements: By.selector: #sb_form_q] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/elements)
-19:30:17.245 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/elements
-19:30:17.249 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (5cf46f05a017dd87f9c37bf79333e4ac)] -> css selector: #sb_form_q]] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/element/1/displayed)
-19:30:17.268 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/element/1/displayed
-19:30:19.277 INFO - Executing: [find element: By.selector: #sb_form_q] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/element)
-19:30:19.298 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/element
-19:30:19.304 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (5cf46f05a017dd87f9c37bf79333e4ac)] -> css selector: #sb_form_q], [w, h, a, t,  , i, s,  , j, a, v, a, s, c, r, i, p, t]] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/element/1/value)
-19:30:19.415 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/element/1/value
-19:30:19.419 INFO - Executing: [find element: By.selector: #sb_form_go] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/element)
-19:30:19.443 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/element
-19:30:19.447 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (5cf46f05a017dd87f9c37bf79333e4ac)] -> css selector: #sb_form_go]] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/element/2/click)
-19:30:20.064 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/element/2/click
-19:30:22.070 INFO - Executing: [find elements: By.selector: body] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/elements)
-19:30:22.081 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/elements
-19:30:22.085 INFO - Executing: [take screenshot] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e/screenshot)
-19:30:22.547 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e/screenshot
-19:30:22.669 INFO - Executing: [delete session: fccf182d-940a-422c-9709-d71102baf28e] at URL: /session/fccf182d-940a-422c-9709-d71102baf28e)
-19:30:23.230 INFO - Done: /session/fccf182d-940a-422c-9709-d71102baf28e
+17:11:20.525 INFO - Done: /session
+17:11:20.539 INFO - Executing: [get: http://www.baidu.com] at URL: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/url)
+17:11:21.113 INFO - Done: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/url
+17:11:21.120 INFO - Executing: [find elements: By.selector: body] at URL: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/elements)
+17:11:21.152 INFO - Done: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/elements
+17:11:21.156 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (63c038914c2848c8c936f24d796ed0ee)] -> css selector: body]] at URL: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element/0/displayed)
+17:11:21.176 INFO - Done: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element/0/displayed
+17:11:21.181 INFO - Executing: [get title] at URL: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/title)
+17:11:21.186 INFO - Done: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/title
+17:11:21.190 INFO - Executing: [find element: By.selector: input[id=kw]] at URL: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element)
+17:11:21.206 INFO - Done: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element
+17:11:21.209 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (63c038914c2848c8c936f24d796ed0ee)] -> css selector: input[id=kw]]] at URL: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element/1/displayed)
+17:11:21.232 INFO - Done: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element/1/displayed
+17:11:21.235 INFO - Executing: [find element: By.selector: input[id=kw]] at URL: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element)
+17:11:21.244 INFO - Done: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element
+17:11:21.248 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (63c038914c2848c8c936f24d796ed0ee)] -> css selector: input[id=kw]], [n, i, g, h, t, w, a, t, c, h]] at URL: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element/1/value)
+17:11:21.404 INFO - Done: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element/1/value
+17:11:21.407 INFO - Executing: [find element: By.selector: input[id=su]] at URL: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element)
+17:11:21.425 INFO - Done: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element
+17:11:21.428 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (63c038914c2848c8c936f24d796ed0ee)] -> css selector: input[id=su]]] at URL: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element/2/displayed)
+17:11:21.448 INFO - Done: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element/2/displayed
+17:11:21.451 INFO - Executing: [find element: By.selector: input[id=su]] at URL: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element)
+17:11:21.458 INFO - Done: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element
+17:11:21.461 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (63c038914c2848c8c936f24d796ed0ee)] -> css selector: input[id=su]]] at URL: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element/2/click)
+17:11:21.509 INFO - Done: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element/2/click
+17:11:23.522 INFO - Executing: [find elements: By.selector: body] at URL: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/elements)
+17:11:23.531 INFO - Done: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/elements
+17:11:23.535 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (63c038914c2848c8c936f24d796ed0ee)] -> css selector: body]] at URL: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element/0/displayed)
+17:11:23.542 INFO - Done: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/element/0/displayed
+17:11:23.545 INFO - Executing: [take screenshot] at URL: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/screenshot)
+17:11:23.994 INFO - Done: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb/screenshot
+17:11:24.109 INFO - Executing: [delete session: 31a61c43-b97d-4011-989e-db52bdb5a0bb] at URL: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb)
+17:11:24.673 INFO - Done: /session/31a61c43-b97d-4011-989e-db52bdb5a0bb
+17:11:24.691 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Practice / Find Huawei Location, browserName=chrome, javascriptEnabled=true, platform=ANY}]] at URL: /session)
+17:11:24.692 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Practice / Find Huawei Location, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b) on port 24687
+Only local connections are allowed.
+17:11:25.863 INFO - Done: /session
+17:11:25.868 INFO - Executing: [get: http://www.baidu.com] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/url)
+17:11:26.463 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/url
+17:11:26.468 INFO - Executing: [find elements: By.selector: body] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/elements)
+17:11:26.488 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/elements
+17:11:26.491 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (5d5e79a749652f3ccc58a20af02dbefc)] -> css selector: body]] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element/0/displayed)
+17:11:26.507 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element/0/displayed
+17:11:26.512 INFO - Executing: [get title] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/title)
+17:11:26.517 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/title
+17:11:26.521 INFO - Executing: [find element: By.selector: a[name=tj_trmap]] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element)
+17:11:26.538 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element
+17:11:26.540 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (5d5e79a749652f3ccc58a20af02dbefc)] -> css selector: a[name=tj_trmap]]] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element/1/displayed)
+17:11:26.562 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element/1/displayed
+17:11:26.565 INFO - Executing: [find element: By.selector: a[name=tj_trmap]] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element)
+17:11:26.573 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element
+17:11:26.575 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (5d5e79a749652f3ccc58a20af02dbefc)] -> css selector: a[name=tj_trmap]]] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element/1/click)
+17:11:28.286 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element/1/click
+17:11:30.291 INFO - Executing: [find elements: By.selector: body] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/elements)
+17:11:30.302 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/elements
+17:11:30.305 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (5d5e79a749652f3ccc58a20af02dbefc)] -> css selector: body]] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element/2/displayed)
+17:11:30.320 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element/2/displayed
+17:11:30.323 INFO - Executing: [find element: By.selector: input#sole-input] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element)
+17:11:30.341 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element
+17:11:30.344 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (5d5e79a749652f3ccc58a20af02dbefc)] -> css selector: input#sole-input]] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element/3/displayed)
+17:11:30.365 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element/3/displayed
+17:11:30.368 INFO - Executing: [find element: By.selector: input#sole-input] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element)
+17:11:30.376 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element
+17:11:30.378 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on MAC (5d5e79a749652f3ccc58a20af02dbefc)] -> css selector: input#sole-input], [华, 为, 百, 草, 园]] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element/3/value)
+17:11:30.445 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element/3/value
+17:11:30.450 INFO - Executing: [find element: By.selector: button#search-button] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element)
+17:11:30.468 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element
+17:11:30.471 INFO - Executing: [click: 4 [[ChromeDriver: chrome on MAC (5d5e79a749652f3ccc58a20af02dbefc)] -> css selector: button#search-button]] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element/4/click)
+17:11:30.528 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/element/4/click
+17:11:32.539 INFO - Executing: [take screenshot] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/screenshot)
+17:11:33.093 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564/screenshot
+17:11:33.325 INFO - Executing: [delete session: 5da25723-3ef6-4d13-91a0-8bc81f200564] at URL: /session/5da25723-3ef6-4d13-91a0-8bc81f200564)
+17:11:33.896 INFO - Done: /session/5da25723-3ef6-4d13-91a0-8bc81f200564
+17:11:33.913 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Practice / Login WFData, browserName=chrome, javascriptEnabled=true, platform=ANY}]] at URL: /session)
+17:11:33.914 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Practice / Login WFData, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b) on port 9412
+Only local connections are allowed.
+17:11:35.118 INFO - Done: /session
+17:11:35.121 INFO - Executing: [get: http://www.baidu.com] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/url)
+17:11:35.739 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/url
+17:11:35.742 INFO - Executing: [find elements: By.selector: body] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/elements)
+17:11:35.761 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/elements
+17:11:35.764 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (ce23fdfd3b137cc6e26dd63b55b36528)] -> css selector: body]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/0/displayed)
+17:11:35.780 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/0/displayed
+17:11:35.784 INFO - Executing: [get title] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/title)
+17:11:35.788 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/title
+17:11:35.791 INFO - Executing: [find element: By.selector: a[name=tj_trxueshu]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element)
+17:11:35.808 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element
+17:11:35.811 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (ce23fdfd3b137cc6e26dd63b55b36528)] -> css selector: a[name=tj_trxueshu]]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/1/displayed)
+17:11:35.834 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/1/displayed
+17:11:35.837 INFO - Executing: [find element: By.selector: a[name=tj_trxueshu]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element)
+17:11:35.844 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element
+17:11:35.847 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (ce23fdfd3b137cc6e26dd63b55b36528)] -> css selector: a[name=tj_trxueshu]]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/1/click)
+17:11:36.290 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/1/click
+17:11:38.301 INFO - Executing: [find elements: By.selector: div#m] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/elements)
+17:11:38.320 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/elements
+17:11:38.322 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (ce23fdfd3b137cc6e26dd63b55b36528)] -> css selector: div#m]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/2/displayed)
+17:11:38.339 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/2/displayed
+17:11:38.342 INFO - Executing: [find element: By.selector: .navlist_content>[href="http://www.wanfangdata.com.cn"]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element)
+17:11:38.359 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element
+17:11:38.362 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (ce23fdfd3b137cc6e26dd63b55b36528)] -> css selector: .navlist_content>[href="http://www.wanfangdata.com.cn"]]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/3/click)
+17:11:38.475 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/3/click
+17:11:43.484 INFO - Executing: [get window handles] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/window_handles)
+17:11:43.488 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/window_handles
+17:11:43.493 INFO - Executing: [switch to window: CDwindow-03a51c57-cebc-44ce-ae2b-ccd5099d85f2] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/window)
+17:11:43.502 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/window
+17:11:43.506 INFO - Executing: [find elements: By.selector: body] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/elements)
+17:11:43.579 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/elements
+17:11:43.582 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (ce23fdfd3b137cc6e26dd63b55b36528)] -> css selector: body]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/4/displayed)
+17:11:43.599 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/4/displayed
+17:11:43.603 INFO - Executing: [get title] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/title)
+17:11:43.607 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/title
+17:11:43.610 INFO - Executing: [find element: By.selector: li[title="请登录"]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element)
+17:11:43.632 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element
+17:11:43.636 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on MAC (ce23fdfd3b137cc6e26dd63b55b36528)] -> css selector: li[title="请登录"]]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/5/displayed)
+17:11:43.665 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/5/displayed
+17:11:43.669 INFO - Executing: [find element: By.selector: li[title="请登录"]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element)
+17:11:43.679 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element
+17:11:43.681 INFO - Executing: [click: 5 [[ChromeDriver: chrome on MAC (ce23fdfd3b137cc6e26dd63b55b36528)] -> css selector: li[title="请登录"]]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/5/click)
+17:11:43.753 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/5/click
+17:11:45.758 INFO - Executing: [find element: By.selector: input.userid] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element)
+17:11:45.778 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element
+17:11:45.780 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on MAC (ce23fdfd3b137cc6e26dd63b55b36528)] -> css selector: input.userid]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/6/displayed)
+17:11:45.797 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/6/displayed
+17:11:45.801 INFO - Executing: [find element: By.selector: input.password] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element)
+17:11:45.817 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element
+17:11:45.822 INFO - Executing: [is displayed: 7 [[ChromeDriver: chrome on MAC (ce23fdfd3b137cc6e26dd63b55b36528)] -> css selector: input.password]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/7/displayed)
+17:11:45.842 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/7/displayed
+17:11:45.845 INFO - Executing: [find element: By.selector: input.userid] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element)
+17:11:45.852 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element
+17:11:45.855 INFO - Executing: [send keys: 6 [[ChromeDriver: chrome on MAC (ce23fdfd3b137cc6e26dd63b55b36528)] -> css selector: input.userid], [w, a, n, y, u, r, a, n]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/6/value)
+17:11:45.916 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/6/value
+17:11:45.920 INFO - Executing: [find element: By.selector: input.password] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element)
+17:11:45.926 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element
+17:11:45.928 INFO - Executing: [send keys: 7 [[ChromeDriver: chrome on MAC (ce23fdfd3b137cc6e26dd63b55b36528)] -> css selector: input.password], [x, u, e, s, h, u, 0, 9, 0, 7]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/7/value)
+17:11:45.981 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/7/value
+17:11:45.984 INFO - Executing: [find element: By.selector: button.row.btn.btn-login] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element)
+17:11:45.999 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element
+17:11:46.003 INFO - Executing: [click: 8 [[ChromeDriver: chrome on MAC (ce23fdfd3b137cc6e26dd63b55b36528)] -> css selector: button.row.btn.btn-login]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/8/click)
+17:11:46.051 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/8/click
+17:11:48.059 INFO - Executing: [find element: By.selector: li.profile.single] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element)
+17:11:48.079 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element
+17:11:48.082 INFO - Executing: [is displayed: 9 [[ChromeDriver: chrome on MAC (ce23fdfd3b137cc6e26dd63b55b36528)] -> css selector: li.profile.single]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/9/displayed)
+17:11:48.098 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/9/displayed
+17:11:48.101 INFO - Executing: [find element: By.selector: li.profile.single] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element)
+17:11:48.108 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element
+17:11:48.111 INFO - Executing: [click: 9 [[ChromeDriver: chrome on MAC (ce23fdfd3b137cc6e26dd63b55b36528)] -> css selector: li.profile.single]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/9/click)
+17:11:48.163 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/9/click
+17:11:48.166 INFO - Executing: [find element: By.selector: span.display-name] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element)
+17:11:48.188 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element
+17:11:48.190 INFO - Executing: [get text: 10 [[ChromeDriver: chrome on MAC (ce23fdfd3b137cc6e26dd63b55b36528)] -> css selector: span.display-name]] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/10/text)
+17:11:48.209 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63/element/10/text
+17:11:48.213 INFO - Executing: [delete session: 9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63] at URL: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63)
+17:11:48.781 INFO - Done: /session/9e08ff0a-3ce8-4821-bea8-f9b3b3f10d63

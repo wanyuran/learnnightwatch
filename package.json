@@ -2,12 +2,13 @@
   "name": "learn_nightwatch",
   "version": "1.0.0",
   "description": "",
-  "main": "nightwatch.conf.js",
+  "main": "nightwatch.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./startup.js",
     "selenium-setup": "node ./build/selenium-setup.js",
-    "selenium-start": "node ./build/selenium-start.js"
+    "selenium-start": "node ./build/selenium-start.js",
+    "demo": "nightwatch ./tests/demo.js"
   },
   "keywords": [],
   "author": "",
